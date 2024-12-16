@@ -33,7 +33,7 @@ npm install -g discord-bot-nestjs-cli
 Run the following command to create a new project:
 
 ```bash
-discord-bot-cli init
+discord-bot-nestjs-cli init
 ```
 
 The CLI will prompt you for:
@@ -43,7 +43,7 @@ The CLI will prompt you for:
 ### Example Workflow
 1. Run the `init` command:
    ```bash
-   discord-bot-cli init
+   discord-bot-nestjs-cli init
    ```
    
 2. Follow the prompts to configure the project.
@@ -68,7 +68,6 @@ The CLI sets up a project with the following structure:
 ```
 <project-name>/
 ├── src/
-│   ├── app.module.ts
 │   ├── discord/
 │   │   ├── discord.module.ts
 │   │   ├── discord.service.ts
